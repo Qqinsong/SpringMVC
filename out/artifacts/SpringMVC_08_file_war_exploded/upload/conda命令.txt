@@ -1,0 +1,87 @@
+清华镜像
+和豆瓣镜像
+pip3 install --user -i https://pypi.tuna.tsinghua.edu.cn/simple opencv-python
+pip install -i https://pypi.douban.com/simple/
+pip install --user -i https://pypi.douban.com/simple/ pygame
+pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+D:\anaconda3
+D:\anaconda3\Library\mingw-w64\bin
+D:\anaconda3\Library\usr\bin
+D:\anaconda3\Library\bin
+D:\anaconda3\Scripts
+
+
+conda常用的命令
+1）conda list 查看安装了哪些包。
+2）conda env list 或 conda info -e 查看当前存在哪些虚拟环境
+3）创建使用 conda create -n your_env_name python=X.X（2.7、3.6等)命令创建python版本为X.X
+4）激活Windows: activate your_env_name(虚拟环境名称)
+
+USER_SITE = '/home/users/xxx/anaconda3/envs/gluon-cv/lib/python3.6/site-packages'
+USER_BASE = '/home/users/xxx/anaconda3/envs/gluon-cv'
+
+查看安装包的路径命令是：python -m site  pip show 包名字
+
+
+
+自己总结的一些常用的IDEA快捷键，有需要的拿走：
+ctrl+shift+alt：多行操作
+psvm：生成main()方法；
+fori：生成for循环；
+Ctrl+Alt+v：自动补齐返回值类型
+ctrl+o：覆写方法
+ctrl+i：实现接口中的方法
+ctrl+shift+u：大小写转换
+CTRL+SHIFT+Z：取消撤销
+Alt＋Insert：生成构造方法、getter、setter
+ctrl+y：删除当前行
+Ctrl+Shift+J：将选中的行合并成一行
+ctrl+g：定位到某一行
+Ctrl+Shitft+向下箭头：将光标所在的代码块向下整体移动
+Ctrl+Shift+向上箭头：将光标所在的代码块向上整体移动
+Alt+Shift+向下箭头：将行向下移动
+Alt+Shift+向上箭头：将行向上移动
+Ctrl+F：在当前文件中查找
+Ctrl+R：替换字符串
+Ctrl+Shift+F:在全局文件中查找字符串
+Ctrl+Shift+R：在全局中替换字符串
+Ctrl+Shift+Enter：自动补齐{}或者分号;
+Shift+Enter：在当前行的下方开始新行
+Ctrl+Alt+Enter：在当前行的上方插入新行
+Ctrl+Delete：删除光标所在至单词结尾处的所有字符
+
+<!--添加Servlet和JSP依赖-->
+    <dependencies>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>4.0.1</version>
+            <!--            <scope>provided</scope>-->
+        </dependency>
+        <dependency>
+            <groupId>javax.servlet.jsp</groupId>
+            <artifactId>javax.servlet.jsp-api</artifactId>
+            <version>2.3.3</version>
+            <!--            <scope>provided</scope>-->
+        </dependency>
+        <!--        JSTL表达式的依赖-->
+        <dependency>
+            <groupId>javax.servlet.jsp.jstl</groupId>
+            <artifactId>jstl-api</artifactId>
+            <version>1.2</version>
+            <!--            <scope>provided</scope>-->
+        </dependency>
+        <!--        standard标签库-->
+        <dependency>
+            <groupId>taglibs</groupId>
+            <artifactId>standard</artifactId>
+            <version>1.1.2</version>
+            <!--            <scope>provided</scope>-->
+        </dependency>
+
+
+
+    </dependencies>
+
+
